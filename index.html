@@ -1,20 +1,44 @@
-//Header //Paragraph about you //List of experience //Navigation to point to
-other pages on site
+<!--Header //Paragraph about you //List of experience //Navigation to point to
+other pages on site. Could use blockquote to do a nice quote on homepage, also look at cite for this to make it clear it is something that is being cited-->
 
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif&display=swap"
+      rel="stylesheet"
+    />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Alexandra Brown Portfolio Site</title>
     <link rel="stylesheet" href="index.css" />
+  
   </head>
   <body>
-    <h1 class="title">Alexandra Brown's Portfolio</h1>
-    <a href="index.html">Home</a>
-    <a href="about.html">About</a>
-    <p>Welcome to my website! Please enjoy your stay!</p>
-    <h2>Past experience</h2>
+    <h1 class="title">Welcome to my portfolio...</h1>
+    <style>
+      .bournemouth {
+        width: 200px;
+        border-radius: 50%;
+        position: absolute;
+        left: 761px;
+        top: 30px;
+      }
+    </style>
+    <a href="images/IMG_8301.JPG">
+      <img
+        src="images/IMG_8301.JPG"
+        alt="Me in Bournemouth"
+        class="bournemouth"
+      />
+    <a class="homenav" href="index.html">Home</a>
+    <a class="aboutnav" href="about.html">About</a>
+    <p class="about">Hi, I'm Alex Brown - a software developer in training with a passion for all things creative!<br>
+    When I discovered that software development was an industry that managed to combine both creativity with logic, flair with problem solving and artistry with structure, 
+    it was clear that this was the career for me. After graduating with a degree in English Literature and Theatre Studies, 
+    I directed my creativity towards a different industry and saw myself transition from theatre maker, to software maker: 
+    a leap that I continue to find exceptionally rewarding<br>Feel free to take a look around!</p>
+    <h2 class="pastexperience">Past experience</h2>
     <ul>
       <li>Northcoders Student: August 2020 - present.</li>
       <li></li>
@@ -23,4 +47,4 @@ other pages on site
 </html>
 
 <!-- Project page //Show off previous projects in a nice grid? With links to github
-and maybe other socials //Potentially a contact page? How to reach you-->
+and maybe other socials //Potentially a contact page? How to reach you, include a form here-->

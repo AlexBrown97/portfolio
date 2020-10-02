@@ -1,10 +1,38 @@
 body {
+  position: absolute;
+  width: 1036px;
+  height: 118px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-family: Helvetica;
+  font-family: "Times New Roman";
+  font-style: normal;
+  font-weight: normal;
+  line-height: 67px;
 }
 .title {
-  font-size: 45pt;
-  color: salmon;
+  font-size: 230%;
+  font-family: "IBM Plex Serif";
+  width: 200px;
+  font-size: 48px;
+  color: #998f96;
+  display: inline-block;
+}
+.homenav {
+  font-family: "IBM Plex Serif";
+}
+.aboutnav {
+  font-family: "IBM Plex Serif";
+}
+.about {
+  font-family: "IBM Plex Serif";
+  line-height: 2;
+}
+
+.pastexperience {
+  font-family: "IBM Plex Serif";
+  width: 200px;
+  font-size: 30px;
+  color: #998f96;
+  display: inline-block;
 }
