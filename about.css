@@ -3,6 +3,9 @@ body {
   margin: 10vw auto;
   background-color: #ecf0f1;
 }
+a {
+  color: black;
+}
 
 .aboutme {
   font-family: "Playfair Display", serif;
