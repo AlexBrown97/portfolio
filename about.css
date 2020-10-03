@@ -1,19 +1,31 @@
 body {
   width: 80%;
   margin: 10vw auto;
-  background-color: #ecf0f1;
+  background-color: black;
 }
 a {
-  color: black;
+  color: white;
 }
 
 .aboutme {
+  color: white;
   font-family: "Playfair Display", serif;
   font-size: 7vw;
 }
+.navigation {
+  position: absolute;
+  top: 30%;
+  left: 25%;
+  font-family: "Open Sans";
+  font-weight: bold;
+  opacity: 1;
+  border-bottom: white;
+}
 
 blockquote {
-  color: black;
+  top: 45%;
+  left: 10%;
+  color: white;
   font-size: 36px;
   line-height: 100%;
   position: relative;
@@ -40,23 +52,6 @@ blockquote:after {
   font-style: normal;
 }
 
-.homenav {
-  font-family: "Open Sans";
-  font-weight: bold;
-  border-bottom: black;
-}
-.aboutnav {
-  font-family: "Open Sans";
-  font-weight: bold;
-  opacity: 1;
-  border-bottom: black;
-}
-.worknav {
-  font-family: "Open Sans";
-  font-weight: bold;
-  border-bottom: black;
-}
-
 @media screen and (min-width: 40em) {
   body {
     width: 50%;
@@ -71,9 +66,10 @@ blockquote:after {
   }
 
   .paragraph {
+    color: white;
     font-family: "Open Sans";
     font-weight: bold;
-    border-bottom: black;
+    border-bottom: white;
     line-height: 1.5;
   }
 }
