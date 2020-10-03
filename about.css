@@ -1,0 +1,100 @@
+body {
+  width: 80%;
+  margin: 10vw auto;
+  background-color: #ecf0f1;
+}
+
+.aboutme {
+  font-family: "Playfair Display", serif;
+  font-size: 7vw;
+}
+
+blockquote {
+  color: black;
+  font-size: 36px;
+  line-height: 100%;
+  position: relative;
+  font-family: "Playfair Display";
+  width: 500px;
+  margin: 10% auto;
+}
+blockquote:before {
+  content: "\201C";
+  position: absolute;
+  top: -10px;
+  left: 0;
+  font-family: Arial, sans-serif;
+  font-size: 82px;
+  font-style: normal;
+}
+blockquote:after {
+  content: "\201C";
+  position: absolute;
+  bottom: -60px;
+  right: 0;
+  font-family: Arial, sans-serif;
+  font-size: 82px;
+  font-style: normal;
+}
+
+.homenav {
+  font-family: "Open Sans";
+  font-weight: bold;
+  border-bottom: black;
+}
+.aboutnav {
+  font-family: "Open Sans";
+  font-weight: bold;
+  opacity: 1;
+  border-bottom: black;
+}
+.worknav {
+  font-family: "Open Sans";
+  font-weight: bold;
+  border-bottom: black;
+}
+
+@media screen and (min-width: 40em) {
+  body {
+    width: 50%;
+  }
+
+  .heading {
+    font-size: 6vw;
+  }
+
+  .subheading {
+    font-size: 1.75vw;
+  }
+
+  .paragraph {
+    font-family: "Open Sans";
+    font-weight: bold;
+    border-bottom: black;
+    line-height: 1.5;
+  }
+}
+/*================================================
+  Start Important Part
+  ==================================================*/
+.underline--magical {
+  background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+  background-repeat: no-repeat;
+  background-size: 100% 0.2em;
+  background-position: 0 88%;
+  transition: background-size 0.25s ease-in;
+}
+.underline--magical:hover {
+  background-size: 100% 88%;
+}
+.footer {
+  font-family: "Open Sans", sans-serif;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 1px;
+}
