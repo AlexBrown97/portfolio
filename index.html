@@ -3,72 +3,71 @@
   <head>
     <meta charset="UTF-8" />
     <title>Alexandra Brown Portfolio Site</title>
+    <link rel="stylesheet" href="./index.css" />
     <link
       href="https://fonts.googleapis.com/css?family=Open+Sans|Playfair+Display:700"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./index.css" />
     <link
       href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
   </head>
+    
   <body>
-    <h1 class="heading">
-      Hi, I'm <span class="underline--magical">Alex</span>
-    </h1>
-    <h2 class="subheading">
-      I'm a theatre maker turned
-      <span class="underline--magical">software maker</span> from Manchester
-      with a passion for all things creative! Feel free to take a look around...
-    </h2>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-polyfill/6.26.0/polyfill.min.js"></script>
-    <script src="./script.js"></script>
-
-  <div class = "navigation">
+    <main>
+      <h1 class="heading">
+        Hi, I'm <span class="underline--magical">Alex</span>
+      </h1>
+      <h2 class="subheading">
+        I'm a theatre maker turned
+        <span class="underline--magical">software maker</span> from Manchester
+        with a passion for all things creative! Feel free to take a look around...
+      </h2>
+    </main>
+  
+    <div class = "navigation">
     <a class="homenav" href="index.html">Home</a>
     <a class="aboutnav" href="about.html">About</a>
     <a class="worknav" href="work.html">Work</a>
   </div>
 
-    <div class="media">
+  <div class="media">
       <ul>
         <li><i><a href="https://www.linkedin.com/in/alexandra-brown-b291211b8/" class="fa fa-linkedin" aria-hidden="true"></a></i></li>
         <li><i><a href="https://medium.com/@alex.brown.1" class="fa fa-medium"></a></i></li>
         <li><i><a href="https://github.com/" class="fa fa-github" aria-hidden="true"></a></i>/</li>
         <li><i><a href="https://twitter.com/?lang=en-gb" class="fa fa-twitter" aria-hidden="true"></a></i></li>
       </ul>
-    </div>
+  </div>
 
-      <div class="contact-form">
-        <form id="contact-form" method='post' action="contact-form-handler.php">
-          <input name="name" type="text" class="form-control" placeholder="Your Name" required><br>
-          <input name="email" type="email" class="form-control" placeholder="Your Email" required><br>
-          <textarea name="message" class="form-control" placeholder="Message" rows="4" required></textarea><br>
-          <input type="Submit" class="form-control submit" value="Send">
-          </form>
-      </div>
+  <div class="contact-form">
+    <form id="contact-form" method='post' action="contact-form-handler.php">
+       <input name="name" type="text" class="form-control" placeholder="Your Name" required><br>
+       <input name="email" type="email" class="form-control" placeholder="Your Email" required><br>
+       <textarea name="message" class="form-control" placeholder="Message" rows="4" required></textarea><br>
+       <input type="Submit" class="form-control submit" value="Send">
+    </form>
+  </div>
 
-    <style>
-      .bournemouth {
-        width: 150px;
-        border-radius: 50%;
-        position: absolute;
-        left: 900px;
-        top: 30px;
-      }
-    </style>
-    <img
+    
+  <img class="bournemouth"
       src="images/IMG_8301.JPG"
       alt="Me in Bournemouth"
-      class="bournemouth"
     />
 
-    <footer class="footer">
-      <p>Alexandra Brown 2020</p>
-    </footer>
+  <footer class="footer">
+    <p>Alexandra Brown 2020</p>
+  </footer>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-polyfill/6.26.0/polyfill.min.js"></script>
+    <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js" 
+    integrity="sha512-IQLehpLoVS4fNzl7IfH8Iowfm5+RiMGtHykgZJl9AWMgqx0AmJ6cRWcB+GaGVtIsnC4voMfm8f2vwtY+6oPjpQ=="
+    crossorigin="anonymous">
+  </script>
+    <script src="./script.js"></script>
   </body>
 </html>
 

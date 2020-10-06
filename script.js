@@ -1,4 +1,10 @@
-// VARIABLES
+const tl = gsap.timeline({ defaults: { ease: "power1.out" } });
+tl.fromTo(".heading", { opacity: 0 }, { opacity: 1, duration: 1 });
+tl.fromTo(".subheading", { opacity: 0 }, { opacity: 1, duration: 1 }, "-=1");
+tl.fromTo(".navigation", { opacity: 0 }, { opacity: 1, duration: 1 }, "-=1");
+tl.fromTo(".media", { opacity: 0 }, { opacity: 1, duration: 1 }, "-=1");
+tl.fromTo(".contact-form", { opacity: 0 }, { opacity: 1, duration: 1 }, "-=1");
+
 const magicalUnderlines = Array.from(
   document.querySelectorAll(".underline--magical")
 );

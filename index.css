@@ -1,4 +1,6 @@
 body {
+  opacity: 1;
+  transition: 1s opacity;
   width: 80%;
   margin: 10vw auto;
   background-color: black;
@@ -19,6 +21,15 @@ a {
   font-size: 1em;
   line-height: 1.5;
 }
+
+.bournemouth {
+  width: 150px;
+  border-radius: 50%;
+  position: absolute;
+  left: 900px;
+  top: 30px;
+}
+
 .navigation {
   position: absolute;
   top: 50%;
