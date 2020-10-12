@@ -6,6 +6,7 @@ tl.fromTo(".media", { opacity: 0 }, { opacity: 1, duration: 1 }, "-=1");
 tl.fromTo(".contact-form", { opacity: 0 }, { opacity: 1, duration: 1 }, "-=1");
 tl.fromTo(".footer", { opacity: 0 }, { opacity: 1, duration: 1 }, "-=1");
 tl.fromTo(".bournemouth", { opacity: 0 }, { opacity: 1, duration: 1 }, "-=1");
+tl.fromTo(".codepic", { opacity: 0 }, { opacity: 1, duration: 1 }, "-=1");
 const magicalUnderlines = Array.from(
   document.querySelectorAll(".underline--magical")
 );
